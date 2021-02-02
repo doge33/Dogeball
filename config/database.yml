@@ -84,7 +84,7 @@ production:
   pool: <%= ENV["DB_POOL"] || ENV['RAILS_MAX_THREADS'] || 5 %>
 #
 production:
-#  <<: *default
+  <<: *default
   database: rails_backend_production
   username: rails_backend
   password: <%= ENV['RAILS_BACKEND_DATABASE_PASSWORD'] %>
