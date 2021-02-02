@@ -1,0 +1,50 @@
+.camera{
+  background: pink;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column
+}
+
+
+
+
+.lobby {
+  main {
+    margin-top: 5em;
+    display: grid;
+    grid-template-areas: "leaderboard button"
+                        "leaderboard history"
+                         "table history";
+    grid-gap: 5em;
+ 
+
+    .button{
+      padding: 50px;
+      grid-area: button
+    }
+
+    .leaderboard-div {
+      //border: 1px solid blue;
+      border-radius: 10%;
+      grid-area: leaderboard;
+      
+    
+    }
+
+    .history-div {
+    //border: 1px solid blue;
+    border-radius: 10%;
+    grid-area: history;
+    }
+
+    .table {
+      grid-area: table;
+    }
+  }  
+}
+
+#collapse-text {
+  margin-top: 2em;
+  overflow-y: scroll;
+  max-height: 400px;
+}

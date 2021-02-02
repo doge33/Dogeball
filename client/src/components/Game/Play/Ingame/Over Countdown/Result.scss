@@ -1,0 +1,77 @@
+#result{
+  //position: absolute;
+  //background-color: burlywood;
+  //border: 1px solid burlywood;
+  margin: 10% 20% 1em 20%;
+
+  .consequence{
+    //position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 90px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-shadow: -2px 0 0 #fdff2a, -4px 0 0 #df4a42, 2px 0 0 #91fcfe, 4px 0 0 #4405fc;
+    animation: blink 1s steps(4, start) infinite;
+
+    
+  
+}}
+
+.consequence-score{
+    
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  color: #ffff47;
+  width: 100%;
+  text-align: center;
+  margin: 5% auto auto auto;
+  font-size: 45px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a, -4px 0 0 #df4a42, 2px 0 0 #91fcfe, 4px 0 0 #4405fc;
+  //animation: blink 1s steps(4, start) infinite;
+  
+}
+
+#cat{
+  opacity: 0;
+  -o-animation: cssAnimation 5s;
+  position: absolute;
+  animation-delay: 1s;
+  animation: nyancat 8s linear 2s infinite ;
+}
+@keyframes nyancat {
+  0%   { left:0vw; top:30vh;}
+  100%  {opacity:1;left:100vw; top:30vh;}
+
+}  
+
+#dog{
+
+  opacity: 0;
+  -o-animation: cssAnimation 3s;
+  position: absolute;
+  //animation-delay: 2s;
+  animation: dog 2s linear;
+  animation-fill-mode: forwards;
+  z-index: 0;
+  
+}
+@keyframes dog {
+  0%   {left:60vw; top:0vh;}
+  50%  {opacity: 1;left:60vw; top:15vh;}
+  75%  {left:60vw; top:10vh;}
+  100%  {opacity: 0.5;left:60vw; top:15vh;}
+
+}
