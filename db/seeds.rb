@@ -54,19 +54,19 @@ end4 = Duration.new.rand_end_time
 end5 = Duration.new.rand_end_time
 end6 = Duration.new.rand_end_time
 
-# duration1 = Time.at(end1 - start1).utc.strftime("%H:%M:%S")
-# duration2 = Time.at(end2 - start2).utc.strftime("%H:%M:%S")
-# duration3 = Time.at(end3 - start3).utc.strftime("%H:%M:%S")
-# duration4 = Time.at(end4 - start4).utc.strftime("%H:%M:%S")
-# duration5 = Time.at(end5 - start5).utc.strftime("%H:%M:%S")
-# duration6 = Time.at(end6 - start6).utc.strftime("%H:%M:%S")
+duration1 = Time.at(end1 - start1).utc.strftime("%H:%M:%S")
+duration2 = Time.at(end2 - start2).utc.strftime("%H:%M:%S")
+duration3 = Time.at(end3 - start3).utc.strftime("%H:%M:%S")
+duration4 = Time.at(end4 - start4).utc.strftime("%H:%M:%S")
+duration5 = Time.at(end5 - start5).utc.strftime("%H:%M:%S")
+duration6 = Time.at(end6 - start6).utc.strftime("%H:%M:%S")
 
-# :start_time => start1, :end_time => end1, :duration => Time.at(end1 - start1).utc.strftime("%H:%M:%S"),
-# :start_time => start2, :end_time => end2, :duration => Time.at(end2 - start2).utc.strftime("%H:%M:%S"),
-# :start_time => start3, :end_time => end3, :duration => Time.at(end3 - start3).utc.strftime("%H:%M:%S"),
-# :start_time => start4, :end_time => end4, :duration => Time.at(end4 - start4).utc.strftime("%H:%M:%S"),
-# :start_time => start5, :end_time => end5, :duration => Time.at(end5 - start5).utc.strftime("%H:%M:%S"),
-# :start_time => start6, :end_time => end6, :duration => Time.at(end6 - start6).utc.strftime("%H:%M:%S"),
+:start_time => start1, :end_time => end1, :duration => Time.at(end1 - start1).utc.strftime("%H:%M:%S"),
+:start_time => start2, :end_time => end2, :duration => Time.at(end2 - start2).utc.strftime("%H:%M:%S"),
+:start_time => start3, :end_time => end3, :duration => Time.at(end3 - start3).utc.strftime("%H:%M:%S"),
+:start_time => start4, :end_time => end4, :duration => Time.at(end4 - start4).utc.strftime("%H:%M:%S"),
+:start_time => start5, :end_time => end5, :duration => Time.at(end5 - start5).utc.strftime("%H:%M:%S"),
+:start_time => start6, :end_time => end6, :duration => Time.at(end6 - start6).utc.strftime("%H:%M:%S"),
 
 50.times do
   Match.create!(:score=> Faker::Types.rb_integer, :day_played => Faker::Time.between_dates(from: Date.today - 10, to: Date.today, period: :morning),:user_id=> rand(1..10))
