@@ -45,7 +45,7 @@ function Leaderboard() {
         aria-controls="example-collapse-text"
         aria-expanded={open}
       >
-        <h1> Leaderboard </h1>
+        <h1> Leaderboarding </h1>
       </Button>
       
       <Collapse in={open}>
