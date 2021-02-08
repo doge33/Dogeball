@@ -1,7 +1,7 @@
 import React from 'react';
-import MK from '../assets/michael_photo.jpg'
-import AA from '../assets/adnan_ash.jpg'
-import SL from '../assets/sandy.png'
+import MK from '../assets/michael_photo.jpg';
+import AA from '../assets/adnan_ash.jpg';
+import SL from  '../assets/sandy2.jpeg';
 
 function TeamCard() {
   return (
