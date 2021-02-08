@@ -406,8 +406,9 @@ main {
       }
 
       .border-sides {
-        border-left: 1px solid rgb(172, 26, 87);
-        border-right:1px solid rgb(172, 26, 87);
+        //border-left: 1px solid rgb(172, 26, 87);
+        border-left: 1px solid #816f6f50;
+        //border-right:1px solid rgb(172, 26, 87);
       }
     }
   }
