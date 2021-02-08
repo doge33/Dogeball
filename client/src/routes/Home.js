@@ -18,7 +18,14 @@ function Home() {
   const [user, setUser] = useState({
     isLoggedIn: false,
     user: {}
-  })
+  });
+
+  const [teamHidden, setTeamHidden] = useState(true);
+
+  function handleTeamClick() {
+    setTeamHidden(!teamHidden);
+  }
+
 
   return (
     <Fragment>
@@ -26,7 +33,7 @@ function Home() {
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
-        <Navbar user={user} />
+        <Navbar user={user} onTeamClick={handleTeamClick}/>
 
         <main className="main-container animate-in" id="about">
           <section className="introduction">
@@ -42,7 +49,10 @@ function Home() {
           </section>
         </main>
 
-        <TeamCards />
+        
+          { !teamHidden && <TeamCards />}
+        
+        
       </div>
     </Fragment>
   )

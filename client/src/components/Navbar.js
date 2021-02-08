@@ -45,8 +45,8 @@ function Navbar(props) {
                     <div className="name"><span data-text="About">About</span></div>
                   </a>
                 </li>
-                <li className="nav-item active">
-                  <a href="#team">
+                <li className="nav-item active" >
+                  <a href="#team" onClick = {() => props.onTeamClick()}>
                     <div className="icon">
                       <i className="fa fa-users" aria-hidden="true"></i>
                       <i className="fa fa-users" aria-hidden="true"></i>

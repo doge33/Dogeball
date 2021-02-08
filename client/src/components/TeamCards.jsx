@@ -27,6 +27,27 @@ function TeamCard() {
         </div>
       </div>
 
+      <div className="card card__SL-bg">
+        <div className="card-image">
+          <div>
+            <img src={SL} alt="SL" />
+          </div>
+        </div>
+        <div className="card-text">
+          <span className="name">SL</span>
+          {/* <h2>Post One</h2> */}
+          <p className="2">New gamer passionate about anything involving creativity and technology - cinema, gaming, web development...also enjoy building Ikea furnitures :)</p>
+        </div>
+        <div className="card-contact card-contact__SL-social">
+          <div className="contact contact-1">
+            <a href="https://github.com/doge33" target="_blank"><i class="fa fa-github"></i></a>
+          </div>
+          <div className="contact contact-2 border-sides">
+            <a href="https://www.linkedin.com/in/sandy-long-3657b335/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
       <div className="card card__MK-bg">
         <div className="card-image">
           <div>
@@ -48,26 +69,7 @@ function TeamCard() {
         </div>
       </div>
 
-      <div className="card card__SL-bg">
-        <div className="card-image">
-          <div>
-            <img src={SL} alt="SL" />
-          </div>
-        </div>
-        <div className="card-text">
-          <span className="name">SL</span>
-          {/* <h2>Post One</h2> */}
-          <p className="2">New gamer passionate about anything involving creativity and technology - cinema, gaming, web development...also enjoy building Ikea furnitures :)</p>
-        </div>
-        <div className="card-contact card-contact__SL-social">
-          <div className="contact contact-1">
-            <a href="https://github.com/doge33" target="_blank"><i class="fa fa-github"></i></a>
-          </div>
-          <div className="contact contact-2 border-sides">
-            <a href="https://www.linkedin.com/in/sandy-long-3657b335/" target="_blank"><i class="fa fa-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
+      
     </div >
   )
 }

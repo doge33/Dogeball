@@ -300,8 +300,8 @@ main {
 
   .card {
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 240px 170px 80px;
+    grid-template-columns: 260px;
+    grid-template-rows: 240px 200px 65px;
     grid-template-areas: "image" "text" "contact";
 
     border-radius: 20px;
@@ -411,5 +411,11 @@ main {
         //border-right:1px solid rgb(172, 26, 87);
       }
     }
+  }
+}
+
+#team{
+  .card {
+
   }
 }
