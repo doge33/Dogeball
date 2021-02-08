@@ -139,13 +139,7 @@ body {
     // background-size: cover;
     padding: 0 10px;
 
-    h1 {
-      font-family: $Turret-Road-font;
-      font-weight: 600;
-      letter-spacing: 0.5rem;
-      //color: $color-blue;
-      color: #91C7B1;
-    }
+    
 
     .nav-bar-container {
       // width: 100vw;
@@ -154,7 +148,13 @@ body {
       justify-content: space-evenly;
       box-shadow: 0 10px 10px -15px $nav-hover-color;
       width: 50%;
-
+      h1 {
+            font-family: $Turret-Road-font;
+            font-weight: 600;
+            letter-spacing: 0.5rem;
+            //color: $color-blue;
+            color: #91C7B1;
+          }
     }
     ul {
       // border-radius: 10px;

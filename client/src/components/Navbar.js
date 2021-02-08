@@ -13,7 +13,7 @@ function Navbar(props) {
   const username = props.user ? props.user.username : ""
   const navClass = classNames("navbar-expand-lg navbar-light", {
     "navbar__layout": username,
-    "navbar__landing-page": username === "",
+    "navbar__landing-page": true,
     "navbar": true
   })
 
@@ -33,7 +33,7 @@ function Navbar(props) {
           </div> :
 
           <div className="nav-bar-container">
-            <h1>DogeBall</h1>
+            <h1 id="title">DogeBall</h1>
             <div >
               <ul className="navbar-nav">
                 <li className="nav-item active">

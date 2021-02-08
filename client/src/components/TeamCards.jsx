@@ -15,7 +15,7 @@ function TeamCard() {
         <div className="card-text">
           <span className="name">AA</span>
           {/* <h2>Adnan Ashfaq</h2> */}
-          <p><div>Like to learn and build things on my own. Hardcore gamer, love to code and heavy anime watcher. Volunteer work on spare time.</div></p>
+          <p className="2">Like to learn and build things on my own. Hardcore gamer, love to code and heavy anime watcher. Volunteer work on spare time.</p>
         </div>
         <div className="card-contact card-contact__AA-social">
           <div className="contact contact-1">
@@ -36,7 +36,7 @@ function TeamCard() {
         <div className="card-text">
           <span className="name">MK</span>
           {/* <h2>Post One</h2> */}
-          <p><div className="2">Former financial analyst turned developer. Avid gamer who also loves a good book. And long walks on the beach.</div></p>
+          <p className="2">Former financial analyst turned developer. Avid gamer who also loves a good book. And long walks on the beach.</p>
         </div>
         <div className="card-contact card-contact__MK-social">
           <div className="contact contact-1">
@@ -57,7 +57,7 @@ function TeamCard() {
         <div className="card-text">
           <span className="name">SL</span>
           {/* <h2>Post One</h2> */}
-          <p><div className="2">New gamer passionate about anything involving creativity and technology - cinema, gaming, web development...also enjoy building Ikea furnitures :)</div></p>
+          <p className="2">New gamer passionate about anything involving creativity and technology - cinema, gaming, web development...also enjoy building Ikea furnitures :)</p>
         </div>
         <div className="card-contact card-contact__SL-social">
           <div className="contact contact-1">
