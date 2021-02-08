@@ -65,6 +65,7 @@ function Signup() {
         if (res.data.status === "created") {
           handleLogin(res.data)
           history.push("/game")
+          console.log("arrived at code to push history /game!");
         }
       })
       .catch(err => console.log(err))
