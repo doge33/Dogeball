@@ -10,7 +10,7 @@ function Navbar(props) {
 
   const { user } = useContext(userContext)
   console.log(props.user)
-  const username = props.user.username ? props.user.username : ""
+  const username = props.user ? props.user.username : ""
   const navClass = classNames("navbar-expand-lg navbar-light", {
     "navbar__layout": username,
     "navbar__landing-page": username === "",
